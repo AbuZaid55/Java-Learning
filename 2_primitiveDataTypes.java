@@ -16,6 +16,18 @@ class DataTypes {
         // boolean
         boolean isPassed = true;
 
+        // binary 
+        int binaryNum = 0b101;
+
+        // octal
+        int octalNum = 031;
+
+        // hexa
+        int hexaNum = 0xA;
+
+        // numeric literal with underscores
+        int amount = 1_00_000;
+
         // Print 
         System.out.println("Age " + age);
         System.out.println("Year " + year);
@@ -27,5 +39,11 @@ class DataTypes {
 
         System.out.println("Grade " + grade);
         System.out.println("isPassed " + isPassed);
+
+        System.out.println("Binary  " + binaryNum);
+        System.out.println("Octal " + octalNum);
+        System.out.println("Hexa " + hexaNum);
+
+        System.out.println("Amount " + amount);
     }
 }
