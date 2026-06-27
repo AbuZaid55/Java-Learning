@@ -2,7 +2,7 @@
 // All the variable inside interface is final and static
 
 interface Test {
-    public void config();
+    void config(); // or public void config(), its by default public abstract void config()
 }
 
 interface A extends Test {
