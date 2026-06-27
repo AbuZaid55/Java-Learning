@@ -17,6 +17,10 @@ class ExceptionHandling {
             
         } catch (Exception e) {
             System.out.println("Exception => " + e);
+        } finally {
+            // there is error or not but finally run always
+            System.out.println("Run Always");
+
         }
     }
 }
